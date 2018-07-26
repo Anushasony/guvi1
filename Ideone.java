@@ -10,7 +10,6 @@ class Ideone
 		// your code goes here
 		Scanner sc=new Scanner(System.in);
 		int num=sc.nextInt();
-		System.out.println("enter a number");
 		if(num>0)
 		{
 			System.out.println("Positive");
