@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 class Odd
 {
-  public static void main(String[] args)
+  public static void main(String[] args) throws java.lang.Exception
   {
       Scanner s=new Scanner(System.in);
       int x=s.nextInt();
@@ -10,7 +10,7 @@ class Odd
       for(int i=x+1;i<y;i++)
       {
         if(i%2 !=0)
-              System.out.println(i);
+              System.out.print(i+" ");
       }
   
   }
