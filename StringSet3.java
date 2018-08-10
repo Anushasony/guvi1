@@ -13,14 +13,14 @@ class StringSet3
 		{
 			if(Character.isLetter(str.charAt(i)) && (str.charAt(i)!='.'))
 			{
-				System.out.println("no");
+				System.out.println("No");
 				break;
 			}
 			else 
 			     cnt++;
 		}
 		if(len==cnt)
-		   System.out.println("yes");
+		   System.out.println("Yes");
 	}
 	
 }
