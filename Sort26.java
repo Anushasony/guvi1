@@ -5,7 +5,7 @@ class Sort26
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-	  int n,temp;
+	  int n,tmp;
 		Scanner s=new Scanner(System.in);
 		    n=s.nextInt();
 			int a[]=new int[n];
@@ -19,9 +19,9 @@ class Sort26
             {
                 if (a[i] > a[j]) 
                 {
-                    temp = a[i];
+                    tmp = a[i];
                     a[i] = a[j];
-                    a[j] = temp;
+                    a[j] = tmp;
                 }
             }
         }
