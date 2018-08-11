@@ -6,14 +6,13 @@ class Set49
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		Scanner s=new Scanner(System.in);
-		int n=s.nextInt();
-		int[] a=new int[n];
-		for(int i=0;i<n;i++)
+		int[] a=new int[10];
+		for(int i=0;i<10;i++)
 		{
 			a[i]=s.nextInt();
 		}
 		int max=a[0];
-		for(int i=1;i<n;i++)
+		for(int i=1;i<10;i++)
 		{
 			if(a[i]>max)
 			{
