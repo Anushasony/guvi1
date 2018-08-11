@@ -11,7 +11,7 @@ class Set46
 		int count=0;
 		for(int i=0;i<len;i++)
 	   {
-	   	 if(Character.isLetter(str.charAt(i)) || Character.isDigit(str.charAt(i)))
+	   	 if(Character.isLetter(str.charAt(i)) || Character.isDigit(str.charAt(i)) || str.charAt(i)=='.')
 	   	 {
 	   	 	continue;
 	   	 }
