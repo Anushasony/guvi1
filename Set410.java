@@ -11,10 +11,11 @@ class c
 		System.out.print(a+" "+b);
 		if(n>2)
 		{
+			for(int i=2;i<n;i++){
 			c=a+b;
 			System.out.print(" "+c);
 			a=b;
-			b=c;
+			b=c;}
 		}
 		else
 		{
