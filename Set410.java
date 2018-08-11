@@ -8,9 +8,10 @@ class c
 	 Scanner s=new Scanner(System.in);
 		int n=s.nextInt();
 		int a=1,b=1,c;
-		System.out.print(a+" "+b);
+		
 		if(n>2)
 		{
+			System.out.print(a+" "+b);
 			for(int i=2;i<n;i++){
 			c=a+b;
 			System.out.print(" "+c);
@@ -19,6 +20,9 @@ class c
 		}
 		else
 		{
+			if(n==1)
+			 System.out.println(a);
+			 else
 			System.out.print(a+" "+b);
 		}
 	}
